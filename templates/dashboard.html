@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Profile Page</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link text-light" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#">Games</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#">Settings</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#">Logout</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="row">
+        <div class="col-md-4 mt-4">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">User Information</h4>
+                    <hr>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <p class="card-text">John Doe</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <p class="card-text">johndoe@gmail.com</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone:</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-8 mt-4">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Game Stats</h4>
+                    <hr>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Game</th>
+                                <th>Wins</th>
+                                <th>Losses</th>
+                                <th>Win %</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Tic Tac Toe</td>
+                                <td>10</td>
+                                <td>5</td>
+                                <td>67%</td>
+                            </tr>
+                            <tr>
+                                <td>Connect Four</td>
+                                <td>7</td>
+                                <td>8</td>
+                                <td>47%</td>
+                            </tr>
+                            <tr>
+                                <td>Chess</td>
+                                <td>3</td>
+                                <td>12</td>
+                                <td>20%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+</html>
